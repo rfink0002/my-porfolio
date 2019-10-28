@@ -5,15 +5,16 @@
 ### Changing permission bits
 
 ### Symbolic Mode
-chmod [who] operator [permisions] filename
-ex. chmod u+x o-w myfile gives execute to the user, takes away write from others
+chmod [who] operator [permisions] filename<br />
+![alt text](https://github.com/rfink0002/my-porfolio/blob/master/images/1.png")
+Gives user execute permission.
 
 ### Absolute Mode
-chmod [mode] filename
+chmod [mode] filename<br />
 ex. chmod 666 myfile gives read to owner, group, and others
 
 ### Changing file ownership and group ownership
-chown -R -h owner filename
+chown -R -h owner filename<br />
 ex. chown linux myfile gives ownership of the file myfile to linux
 
 ex. chgrp linux myfile changes the default group of myfile to linux
