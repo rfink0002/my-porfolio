@@ -6,7 +6,7 @@
 
 ### Symbolic Mode
 chmod [who] operator [permisions] filename<br />
-![alt text](https://github.com/rfink0002/my-porfolio/blob/master/images/1.png")
+![alt text](https://github.com/rfink0002/my-porfolio/blob/master/images/1.png")<br />
 Gives user execute permission.
 
 ### Absolute Mode
