@@ -11,7 +11,8 @@ Gives user execute permission.
 
 ### Absolute Mode
 chmod [mode] filename<br />
-ex. chmod 666 myfile gives read to owner, group, and others
+![](images/2.png?raw=true)<br />
+Gives user execute permission.
 
 ### Changing file ownership and group ownership
 chown -R -h owner filename<br />
