@@ -20,11 +20,8 @@ ex. chown linux myfile gives ownership of the file myfile to linux
 
 ex. chgrp linux myfile changes the default group of myfile to linux
 
-If you want to see what groups you belong to use the following command:
-
-ex.
-[linux@new-host-5 ~]$ id
-uid=1000(linux) gid=1000(linux) groups=1000(linux),10(wheel),971(docker) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023<br/>
+If you want to see what groups you belong to use the id command:<br />
+![](images/3.png?raw=true)<br />
 
 umask nnn<br/>
 The umask allows to to mask file permissions when a new file is created.<br />
@@ -35,3 +32,18 @@ ex. umask 002 new file created will have permissions of rw- rw- r--
 A soft link is a pointer to a file.<br />
 ex. ln -s source_path target_path<br />
 ln -s /usr/local/menus/sales.profile profile
+
+### Decoding the Prompt
+
+In the Bourne family of shells, a trailing $ in the prompt generally means your
+logged in as a regular user, while a trailing # means you are root. <br />
+
+### Showing Where You are
+
+If you want to see where you are use the pwd (present working directory) command.<br />
+![](images/4.png?raw=true)<br />
+
+### Getting Information About Files
+
+Use ls, stat, file, or find commands:<br />
+![](images/5.png?raw=true)<br />
